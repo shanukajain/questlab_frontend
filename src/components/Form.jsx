@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from 'axios';  
 import AudioStream from "./AudioStream.js";
 import Loading from "./Loading.jsx";
-const url="http://localhost:4000/user";
+const url="https://medioto-backend.onrender.com/user";
 const apiKey="001268bc5711c98f31af0c528ce77545"
 const voiceId = '21m00Tcm4TlvDq8ikWAM';
 const voiceSettings = {
