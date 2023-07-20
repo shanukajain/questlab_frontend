@@ -1,0 +1,98 @@
+body{
+background: rgb(174,194,238);
+background: radial-gradient(circle, rgba(174,194,238,1) 0%, rgba(34,17,92,1) 100%);
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: white;
+margin: auto;
+text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 10vh;
+    padding: 25px;
+    margin-left: 100px;
+    background-color:rgba(100,100,100,0.3)
+}
+label{
+    font-weight: 800;
+    font-size: 30px;
+    background: #565ACC;
+    background: radial-gradient(circle farthest-corner at center center, #565ACC 0%, #184863 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input{
+    border-radius: 40px;
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 0px;
+}
+
+h1{
+    background: #F6F8F9;
+    background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1:hover,label:hover{
+    background: #FFB76B;
+background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#detail{
+    width: 44vw;
+    height: auto;
+    margin: auto;
+}
+img{
+    opacity: 0.5;
+    width: 10;
+}
+.loading{
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+    margin-top: 10vh;
+    padding: 20px;
+    width: 700px;
+    background-color:rgba(100,100,100,0.3)
+}
+button{
+    border-radius: 30px;
+    padding: 10px;
+    border: 3px solid white;
+    background: #ffffff;
+    background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    -webkit-background-clip: text;
+    font-weight: 400;
+    color: white;       
+}
+.submit{
+    border-radius: 40px;
+    width: 510px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 0px;
+}
+.submit:hover{
+    transform: scale(1.1);
+    color: #FF7C00;
+}
