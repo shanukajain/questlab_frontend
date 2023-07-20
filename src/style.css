@@ -50,7 +50,7 @@ background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7
 -webkit-text-fill-color: transparent;
 }
 #detail{
-    width: 44vw;
+    width: 50vw;
     height: auto;
     margin: auto;
 }
